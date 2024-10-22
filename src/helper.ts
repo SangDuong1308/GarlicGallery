@@ -2,8 +2,7 @@ import { createApi } from "unsplash-js";
 import { toast as reactToastify } from "react-toastify";
 
 export const browserApi = createApi({
-  accessKey: import.meta.env.UNSPLASH_ACCESS_KEY,
-  // accessKey: "",
+  accessKey: import.meta.env.VITE_UNSPLASH_ACCESS_KEY,
 });
 
 export const toast = (() => {
